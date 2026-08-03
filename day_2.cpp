@@ -79,14 +79,79 @@
 // cout <<endl;
 //     return 0;
 // }
+// #include<iostream>
+// using namespace std;
+// int main (){
+// int n=5;
+// int sum=0;
+
+// for (int i=1; i<=n; i++){
+//     sum +=i;
+// }
+// cout << sum <<endl;
+
+//     return 0;
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main(){
+// int i=1;
+// int sum =0;
+// while (i<=10){
+//     sum +=i;
+//     i+=2;
+// }
+// cout << sum <<endl;
+//     return 0;
+// }
+
+// odd number printing
+
+
+// # include <iostream>
+// using namespace std;
+// int main (){
+// int n=10;
+// for (int i=1; i<=n; i++){
+//     if(i%2 !=0){
+//         cout << i << endl;
+//     }
+// }
+//     return 0;
+// }
+
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+// int n =10;
+// int i =1;
+// do {
+//     cout << i << " ";
+//     i ++;
+// }while (i <=n);
+// cout <<endl;
+//     return 0;
+// }
+
+// number is prime is not checking
+
 #include<iostream>
 using namespace std;
 int main (){
-int n =3;
-int sum= 0;
-for(int i=1; i<=n; i++){
-    sum += i;
+int n =5;
+bool isprime =true;
+for (int i=1; i<=n-1; i++){
+    if (n%i==0){
+        isprime=false;
+        break;
+    }
 }
-cout<<sum <<endl;
+if (isprime =true){
+    cout << "number is prime"<<endl;
+}else{
+    cout<< "non prime"<<endl;
+}
     return 0;
 }
