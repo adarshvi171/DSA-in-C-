@@ -137,21 +137,21 @@
 
 // number is prime is not checking
 
-#include<iostream>
-using namespace std;
-int main (){
-int n =5;
-bool isprime =true;
-for (int i=1; i<=n-1; i++){
-    if (n%i==0){
-        isprime=false;
-        break;
-    }
-}
-if (isprime =true){
-    cout << "number is prime"<<endl;
-}else{
-    cout<< "non prime"<<endl;
-}
-    return 0;
-}
+// #include<iostream>
+// using namespace std;
+// int main (){
+// int n =5;
+// bool isprime =true;
+// for (int i=1; i<=n-1; i++){
+//     if (n%i==0){
+//         isprime=false;
+//         break;
+//     }
+// }
+// if (isprime =true){
+//     cout << "number is prime"<<endl;
+// }else{
+//     cout<< "non prime"<<endl;
+// }
+//     return 0;
+// }
